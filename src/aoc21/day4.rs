@@ -1,5 +1,3 @@
-use std::collections::VecDeque;
-
 struct Board(Vec<i32>);
 
 impl Board {
