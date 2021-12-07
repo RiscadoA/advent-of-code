@@ -4,6 +4,7 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
+mod day7;
 
 pub fn run(day: u32, part: u32) -> bool {
     match day {
@@ -13,6 +14,7 @@ pub fn run(day: u32, part: u32) -> bool {
         4 => day4::run(part),
         5 => day5::run(part),
         6 => day6::run(part),
+        7 => day7::run(part),
         _ => return false,
     }
 
